@@ -20,12 +20,11 @@
 
 import Foundation
 
-
+@available(iOS 9.0, *)
 public enum LaunchItem: CustomStringConvertible, Equatable {
     case remoteNotification(item: RemoteNotification)
     case localNotification(item: UILocalNotification)
     case openURL(item: URLToOpen)
-    @available(iOS 9.0, *)
     case shortcut(item: UIApplicationShortcutItem)
     case userActivity(item: NSUserActivity)
     case sourceApplication(bundleIdentifier: String)
