@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.authors  = 'Square'
   s.source   = { :git => 'https://github.com/square/SuperDelegate.git', :tag => s.version }
   s.source_files = 'Sources/*.swift'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 end
